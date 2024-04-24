@@ -1,0 +1,7 @@
+never : c'est un type qui ne pourra jamais être assigné, c'est une valeur impossible à avoir
+
+any: c'est un type qui prend tous les types possibles, mais ce n'est pas 
+recommander car on ne connait pas le contenu de ce qu'elle y a il vaut mieux utiliser unknown
+et du coup ca casse l'utilité de TypeScript
+
+unknown : ça suit le même principe que any, mais c'est + recommander que any, il faut "vérifier" la variable avant de l'utiliser
