@@ -4,4 +4,13 @@ any: c'est un type qui prend tous les types possibles, mais ce n'est pas
 recommander car on ne connait pas le contenu de ce qu'elle y a il vaut mieux utiliser unknown
 et du coup ca casse l'utilité de TypeScript
 
+let chose: any = "hello";
+chose = 4;
+chose = true;
+
 unknown : ça suit le même principe que any, mais c'est + recommander que any, il faut "vérifier" la variable avant de l'utiliser
+
+let variable: unknown = "test";
+if (typeof variable === "string") {
+console.log(variable.toUpperCase()); 
+}
