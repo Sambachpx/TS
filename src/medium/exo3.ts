@@ -42,7 +42,7 @@ type MyReadonly2<T, K extends keyof T> = {
 import type { Alike, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Alike<MyReadonly2<Todo1>, Readonly<Todo1>>>, //TODO: fix
+  Expect<Alike<MyReadonly2<Todo1>, Readonly<Todo1>>>, //TODO:fix
   Expect<Alike<MyReadonly2<Todo1, "title" | "description">, Expected>>,
   Expect<Alike<MyReadonly2<Todo2, "title" | "description">, Expected>>,
   Expect<Alike<MyReadonly2<Todo2, "description">, Expected>>
