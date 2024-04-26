@@ -6,7 +6,8 @@
     "strict": true,
     "declaration": true,
     "moduleResolution": "Node",
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "experimentalDecorators": true
   },
   "files": ["src/app.ts"],
   "include": [""]
